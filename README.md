@@ -1,1 +1,1 @@
-# SHMR
+# Codal guidelines
