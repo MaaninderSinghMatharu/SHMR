@@ -1,4 +1,7 @@
-# **IS 456:2000**
+#  <p align=center>CODAL GUIDELINES
+ <p align=center> The below provided document is a compilation of general structural guidelines provided by Indian Standard codes for an R.C.C. structure. Every structure must comply with these to be termed as satisfactory by Structural auditor(s) or engineer(s). The document consists guidelines from two codes namely IS 456:2000 and IS 13920:2016
+
+   # **IS 456:2000**
 
 #### **Clause 26.5.3: Columns (Reinforcement Requirements)**
 - **26.5.3.1 Longitudinal Reinforcement**  
@@ -82,6 +85,40 @@ However, for a longitudinal reinforcing bar in a column, nominal cover shall in 
 #### **23.3 Slenderness Limits for Beams to Ensure Lateral Stability**
 - : A simply supported or continuous beam shall be so proportioned that the clear distance between the lateral restraints does not exceed 60 b or $\frac{250b^2}{d}$ whichever is less, where $d$ is the effective depth of the beam and $b$ the breadth of the compression face midway between the lateral restraints. For a cantilever, the clear distance from the free end of the cantilever to the lateral restraint shall not exceed 25 b or $\frac{100b^2}{d}$ whichever is less.
 
+### **Clause 26: Requirements Governing Reinforcement and Detailing**
+#### **26.5.1 Beams**
+- **26.5.1.1 Tension Reinforcement**
+  - : 
+    - a) Minimum reinforcement — The minimum area of tension reinforcement shall be not less than that given by the following:
+      $$\frac{A_s}{bd} = \frac{0.85}{f_y}$$
+      where
+      - $A_s$ = minimum area of tension reinforcement,
+      - $b$ = breadth of beam or the breadth of the web of T-beam,
+      - $d$ = effective depth, and
+      - $f_y$ = characteristic strength of reinforcement in N/mm².
+    - b) Maximum reinforcement — The maximum area of tension reinforcement shall not exceed $0.04 \, bD$.
+
+- **26.5.1.2 Compression Reinforcement**
+  - : The maximum area of compression reinforcement shall not exceed $0.04 \, bD$. Compression reinforcement in beams shall be enclosed by stirrups for effective lateral restraint. The arrangement of stirrups shall be as specified in 26.5.3.2.
+
+- **26.5.1.3 Side Face Reinforcement**
+  - : Where the depth of the web in a beam exceeds 750 mm, side face reinforcement shall be provided along the two faces. The total area of such reinforcement shall be not less than 0.1 percent of the web area and shall be distributed equally on two faces at a spacing not exceeding 300 mm or web thickness whichever is less.
+
+- **26.5.1.4 Transverse Reinforcement in Beams for Shear and Torsion**
+  - : The transverse reinforcement in beams shall be taken around the outer-most tension and compression bars. In T-beams and I-beams, such reinforcement shall pass around longitudinal bars located close to the outer face of the flange.
+
+- **26.5.1.5 Maximum Spacing of Shear Reinforcement**
+  - : The maximum spacing of shear reinforcement measured along the axis of the member shall not exceed $0.75 \, d$ for vertical stirrups and $d$ for inclined stirrups at 45°, where $d$ is the effective depth of the section under consideration. In no case shall the spacing exceed 300 mm.
+
+- **26.5.1.6 Minimum Shear Reinforcement**
+  - : Minimum shear reinforcement in the form of stirrups shall be provided such that:
+    $$\frac{A_{w}}{bs_{v}} \geq \frac{0.4}{0.87 f_{y}}$$
+    where
+    - $A_{w}$ = total cross-sectional area of stirrup legs effective in shear,
+    - $s_{v}$ = stirrup spacing along the length of the member,
+    - $b$ = breadth of the beam or breadth of the web of flanged beam, and
+    - $f_{y}$ = characteristic strength of the stirrup reinforcement in N/mm² which shall not be taken greater than 415 N/mm².
+    - Where the maximum shear stress calculated is less than half the permissible value and in members of minor structural importance such as lintels, this provision need not be complied with.
 ---
 ### **Clause 31: Flat Slabs**  
 
@@ -139,40 +176,7 @@ However, for a longitudinal reinforcing bar in a column, nominal cover shall in 
    - Provide U-shaped bars at edges for combined footings.  
 
 ---  
-### **Clause 26: Requirements Governing Reinforcement and Detailing**
-#### **26.5.1 Beams**
-- **26.5.1.1 Tension Reinforcement**
-  - : 
-    - a) Minimum reinforcement — The minimum area of tension reinforcement shall be not less than that given by the following:
-      $$\frac{A_s}{bd} = \frac{0.85}{f_y}$$
-      where
-      - $A_s$ = minimum area of tension reinforcement,
-      - $b$ = breadth of beam or the breadth of the web of T-beam,
-      - $d$ = effective depth, and
-      - $f_y$ = characteristic strength of reinforcement in N/mm².
-    - b) Maximum reinforcement — The maximum area of tension reinforcement shall not exceed $0.04 \, bD$.
 
-- **26.5.1.2 Compression Reinforcement**
-  - : The maximum area of compression reinforcement shall not exceed $0.04 \, bD$. Compression reinforcement in beams shall be enclosed by stirrups for effective lateral restraint. The arrangement of stirrups shall be as specified in 26.5.3.2.
-
-- **26.5.1.3 Side Face Reinforcement**
-  - : Where the depth of the web in a beam exceeds 750 mm, side face reinforcement shall be provided along the two faces. The total area of such reinforcement shall be not less than 0.1 percent of the web area and shall be distributed equally on two faces at a spacing not exceeding 300 mm or web thickness whichever is less.
-
-- **26.5.1.4 Transverse Reinforcement in Beams for Shear and Torsion**
-  - : The transverse reinforcement in beams shall be taken around the outer-most tension and compression bars. In T-beams and I-beams, such reinforcement shall pass around longitudinal bars located close to the outer face of the flange.
-
-- **26.5.1.5 Maximum Spacing of Shear Reinforcement**
-  - : The maximum spacing of shear reinforcement measured along the axis of the member shall not exceed $0.75 \, d$ for vertical stirrups and $d$ for inclined stirrups at 45°, where $d$ is the effective depth of the section under consideration. In no case shall the spacing exceed 300 mm.
-
-- **26.5.1.6 Minimum Shear Reinforcement**
-  - : Minimum shear reinforcement in the form of stirrups shall be provided such that:
-    $$\frac{A_{w}}{bs_{v}} \geq \frac{0.4}{0.87 f_{y}}$$
-    where
-    - $A_{w}$ = total cross-sectional area of stirrup legs effective in shear,
-    - $s_{v}$ = stirrup spacing along the length of the member,
-    - $b$ = breadth of the beam or breadth of the web of flanged beam, and
-    - $f_{y}$ = characteristic strength of the stirrup reinforcement in N/mm² which shall not be taken greater than 415 N/mm².
-    - Where the maximum shear stress calculated is less than half the permissible value and in members of minor structural importance such as lintels, this provision need not be complied with.
 ---
 
 
