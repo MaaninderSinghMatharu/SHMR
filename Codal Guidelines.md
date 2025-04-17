@@ -3,42 +3,6 @@
 
    # **IS 456:2000**
 
-#### **Clause 26.5.3: Columns (Reinforcement Requirements)**
-- **26.5.3.1 Longitudinal Reinforcement**  
-  - **Minimum reinforcement**: 0.8% of gross cross-sectional area.  
-  - **Maximum reinforcement**: 6% (practical limit: 4% if lapping bars).  
-  - Bars ≥ 12 mm diameter; minimum 4 bars for rectangular columns, 6 for circular.
-- **26.5.3.2 Transverse Reinforcement**  
-  - **Lateral ties**:  
-    - Diameter ≥ $\frac{1}{4} \times \text{largest longitudinal bar}$ (min. 6 mm).  
-    - Spacing ≤ *least of*: 16× smallest longitudinal bar, 300 mm, or least lateral dimension.  
-  - **Helical reinforcement**:  
-    - Pitch ≤ 75 mm, 1/6 core diameter, or 3× helix diameter.  
-    - Diameter ≥ 6 mm.
-
----
-
-### **Clause 21: Fire Resistance**  
-#### Table 16A: Nominal Cover to Meet Specified Period of Fire Resistance
-*(Clauses 21.4 and 26.4.3 and Fig. 1)*
-
-| Fire Resistance (h) | Beams (Simply Supported) (mm) | Beams (Continuous) (mm) | Slabs (Simply Supported) (mm) | Slabs (Continuous) (mm) | Ribs (Simply Supported) (mm) | Ribs (Continuous) (mm) | Columns (mm) |
-|---------------------|-----------------------------|-------------------------|-----------------------------|-------------------------|-----------------------------|-------------------------|--------------|
-| 0.5                 | 20                          | 20                      | 20                          | 20                      | 20                          | 20                      | 40           |
-| 1                   | 20                          | 20                      | 20                          | 20                      | 20                          | 20                      | 40           |
-| 1.5                 | 20                          | 20                      | 25                          | 20                      | 35                          | 20                      | 40           |
-| 2                   | 40                          | 30                      | 35                          | 25                      | 45                          | 35                      | 40           |
-| 3                   | 60                          | 40                      | 45                          | 35                      | 55                          | 45                      | 40           |
-| 4                   | 70                          | 50                      | 55                          | 45                      | 65                          | 55                      | 40           |
-
-#### NOTES:
-1. The nominal covers given relate specifically to the minimum member dimensions given in **Fig. 1**.
-2. Cases that lie below the **bold line** require attention to the additional measures necessary to reduce the risks of spalling *(see 21.3.1)*.
-
-  
-
----
-
 #### **Clause 8: Durability Requirements**    
 ### 26.4 Nominal Cover to Reinforcement
 
@@ -63,6 +27,43 @@ However, for a longitudinal reinforcing bar in a column, nominal cover shall in 
 1. For main reinforcement up to 12 mm diameter bar for mild exposure, the nominal cover may be reduced by 5 mm.
 2. Unless specified otherwise, actual concrete cover should not deviate from the required nominal cover by **+10 mm, 0 mm**.
 3. For exposure conditions *severe* and *very severe*, a reduction of 5 mm may be made where the concrete grade is M35 and above.
+---
+### **Clause 21: Fire Resistance**  
+#### Table 16A: Nominal Cover to Meet Specified Period of Fire Resistance
+*(Clauses 21.4 and 26.4.3 and Fig. 1)*
+
+| Fire Resistance (h) | Beams (Simply Supported) (mm) | Beams (Continuous) (mm) | Slabs (Simply Supported) (mm) | Slabs (Continuous) (mm) | Ribs (Simply Supported) (mm) | Ribs (Continuous) (mm) | Columns (mm) |
+|---------------------|-----------------------------|-------------------------|-----------------------------|-------------------------|-----------------------------|-------------------------|--------------|
+| 0.5                 | 20                          | 20                      | 20                          | 20                      | 20                          | 20                      | 40           |
+| 1                   | 20                          | 20                      | 20                          | 20                      | 20                          | 20                      | 40           |
+| 1.5                 | 20                          | 20                      | 25                          | 20                      | 35                          | 20                      | 40           |
+| 2                   | 40                          | 30                      | 35                          | 25                      | 45                          | 35                      | 40           |
+| 3                   | 60                          | 40                      | 45                          | 35                      | 55                          | 45                      | 40           |
+| 4                   | 70                          | 50                      | 55                          | 45                      | 65                          | 55                      | 40           |
+
+#### NOTES:
+1. The nominal covers given relate specifically to the minimum member dimensions given in **Fig. 1**.
+2. Cases that lie below the **bold line** require attention to the additional measures necessary to reduce the risks of spalling *(see 21.3.1)*.
+
+  ---
+
+### **Clause 26.5.3: Columns (Reinforcement Requirements)**
+- **26.5.3.1 Longitudinal Reinforcement**  
+  - **Minimum reinforcement**: 0.8% of gross cross-sectional area.  
+  - **Maximum reinforcement**: 6% (practical limit: 4% if lapping bars).  
+  - Bars ≥ 12 mm diameter; minimum 4 bars for rectangular columns, 6 for circular.
+- **26.5.3.2 Transverse Reinforcement**  
+  - **Lateral ties**:  
+    - Diameter ≥ $\frac{1}{4} \times \text{largest longitudinal bar}$ (min. 6 mm).  
+    - Spacing ≤ *least of*: 16× smallest longitudinal bar, 300 mm, or least lateral dimension.  
+  - **Helical reinforcement**:  
+    - Pitch ≤ 75 mm, 1/6 core diameter, or 3× helix diameter.  
+    - Diameter ≥ 6 mm.
+
+
+
+
+
 
 ---
 
@@ -90,7 +91,9 @@ However, for a longitudinal reinforcing bar in a column, nominal cover shall in 
 - **26.5.1.1 Tension Reinforcement**
   - : 
     - a) Minimum reinforcement — The minimum area of tension reinforcement shall be not less than that given by the following:
-      $$\frac{A_s}{bd} = \frac{0.85}{f_y}$$
+
+       $$\frac{A_s}{bd} = \frac{0.85}{f_y}$$
+
       where
       - $A_s$ = minimum area of tension reinforcement,
       - $b$ = breadth of beam or the breadth of the web of T-beam,
@@ -108,12 +111,14 @@ However, for a longitudinal reinforcing bar in a column, nominal cover shall in 
   - : The transverse reinforcement in beams shall be taken around the outer-most tension and compression bars. In T-beams and I-beams, such reinforcement shall pass around longitudinal bars located close to the outer face of the flange.
 
 - **26.5.1.5 Maximum Spacing of Shear Reinforcement**
-  - : The maximum spacing of shear reinforcement measured along the axis of the member shall not exceed $0.75 \, d$ for vertical stirrups and $d$ for inclined stirrups at 45°, where $d$ is the effective depth of the section under consideration. In no case shall the spacing exceed 300 mm.
+  - : The maximum spacing of shear reinforcement measured along the axis of the member shall not exceed $0.75 x d$ for vertical stirrups and $d$ for inclined stirrups at 45°, where $d$ is the effective depth of the section under consideration. In no case shall the spacing exceed 300 mm.
 
 - **26.5.1.6 Minimum Shear Reinforcement**
   - : Minimum shear reinforcement in the form of stirrups shall be provided such that:
-    $$\frac{A_{w}}{bs_{v}} \geq \frac{0.4}{0.87 f_{y}}$$
-    where
+    
+  <p align=center>$$\frac{A_{w}}{bs_{v}} \geq \frac{0.4}{0.87 f_{y}}$$
+    
+   where
     - $A_{w}$ = total cross-sectional area of stirrup legs effective in shear,
     - $s_{v}$ = stirrup spacing along the length of the member,
     - $b$ = breadth of the beam or breadth of the web of flanged beam, and
@@ -223,9 +228,7 @@ The minimum grade of structural concrete shall be:
 - **6.2.1** Beams must have at least two 12 mm diameter bars each at the top and bottom faces.
 - **6.2.2** The minimum longitudinal steel ratio $\rho_{\text{min}}$ required on any face at any section is:
 
-  $$
-  \rho_{\text{min}} = 0.24 \frac{\sqrt{f_{ck}}}{f_y}
-  $$
+  $$\rho_{\text{min}} = 0.24 \frac{\sqrt{f_{ck}}}{f_y}$$
 
 - **6.2.3** The maximum longitudinal steel ratio $\rho_{\text{max}}$ provided on any face at any section is 0.025.
 
